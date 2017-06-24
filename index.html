@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title class="title">Fanbase</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mogra|Ranga" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.pink-yellow.min.css" />
+  <link rel="stylesheet" type="text/css" href="style.css"> 
+  <link rel="stylesheet" type="text/css" href="animate.css">
+  <link href="https://fonts.googleapis.com/css?family=Mandali" rel="stylesheet">
+</head>
+<body>
+
+  
+    <div class="demo-layout-transparent mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header mdl-layout__header--transparent">
+          <div class="mdl-layout__header-row">
+            <!-- Title -->
+              <span class="mdl-layout-title fadeInDown animated">Fanbase</span>
+            <!-- Add spacer, to align navigation to the right -->
+              <div class="mdl-layout-spacer"></div>
+            <!-- Navigation -->
+              <nav class="mdl-navigation mdl-layout--large-screen-only"> 
+                <a class="mdl-navigation__link" href="planner.html">My Planner</a>
+                <a class="mdl-navigation__link" href="">Sign Up</a>
+                <a class="mdl-navigation__link" href="">Login</a>
+
+
+              </nav>
+          </div>
+        </header>
+      
+        <div class="mdl-layout__drawer">
+          <span class="mdl-layout-title">Fanbase</span>
+          <nav class="mdl-navigation">
+              <a class="mdl-navigation__link" href="planner.html">My Planner</a>
+              <a class="mdl-navigation__link" href="">Sign Up</a>
+              <a class="mdl-navigation__link" href="">Login</a>
+
+          </nav>
+        </div>
+        <main class="mdl-layout__content">
+          <div class="page-content mdl-grid">
+            <div class="mdl-cell mdl-cell--6-col fadeInDown animated">Made for live music lovers by live music lovers, Fanbase gives you the tools you need to maximize every concert experience.<br> 
+            Quickly find out where your favorite artists are playing next, save the date in your personalized concert planner, and never miss a chance to see them live.<br> 
+            Fanbase wants to make sure you have a blast at the show too. Sing your heart out with the help of our handy song search with links to lyrics.<br> 
+            Being a fan has never been easier than with Fanbase!</div>   
+        </div>
+        <div class="results">
+          <table class="results-table">
+            <thead class="resultsHead"></thead>
+            <tbody class="resultsBody"></tbody>
+          </table>  
+        </div>
+      <div class="querycontainer bounceInLeft animated">
+        <div class="query-container">Find Concerts
+    
+      <!-- Simple Textfield -->
+          <form action="#" class="form1">
+            <div class="mdl-textfield mdl-js-textfield">
+              <input class="mdl-textfield__input" type="text" id="tour-input" placeholder="Artist">
+            </div>
+          </form>
+      
+          <button class="mdl-button mdl-js-button mdl-button--raised" id="showSearchBtn">Search</button>
+            
+  
+        </div>
+      </div>
+      <div class="container bounceInRight animated">
+        <div class="query-container-lyrics">Find Lyrics
+          <form action="#" class="form2">
+            <div class="mdl-textfield mdl-js-textfield">
+              <input class="mdl-textfield__input" type="text" id="artist-input" placeholder="Artist">
+            </div>
+          </form>
+          <form action="#" class="form2">
+            <div class="mdl-textfield mdl-js-textfield">
+               <input class="mdl-textfield__input" type="text" id="song-input" placeholder="Song Title or Keywords">
+            </div>
+          </form>
+          <button class="mdl-button mdl-js-button mdl-button--raised" id="songSearchBtn">Search</button>
+
+            
+        </div>
+        </div>
+     <!--  <br>
+      <br>
+      <br>
+ -->
+        
+     </main> 
+    </div>
+        
+      
+   <footer class="mdl-mini-footer">
+        <div class="mdl-mini-footer__left-section">
+        <div class="mdl-logo">Fanbase</div>
+          <ul class="mdl-mini-footer__link-list">
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Privacy & Terms</a></li>
+          </ul>
+        </div>
+    </footer>
+
+    
+
+  <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <script type="text/javascript" src="javascript/app.js"></script> 
+
+
+</body>
+</html>

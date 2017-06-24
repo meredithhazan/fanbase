@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+
+.demo-layout-transparent {
+  background: url('images/crowd-heart-photo.jpg');
+  height: 800px; 
+  border: 10px solid black;
+  font-family: 'Mandali', sans-serif;
+  font-size: 17px;
+  font-weight: 20px;
+  opacity: .9;
+ 
+
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: #fff;
+  padding: 0 40px 0 100px;
+  font-family: 'Mandali', sans-serif;
+
+}
+
+.mdl-layout {
+	width: 1200px;
+	margin: auto;
+
+}
+
+.mdl-layout__container {	
+	position: static;
+	
+}
+
+.mdl-layout-title {
+	font-size: 32px;
+	font-family: 'Mandali', sans-serif;
+	font-weight: 20px;
+
+}
+
+.mdl-navigation__link {
+	font-size: 16px;
+} 
+
+.planner {
+	margin: 93px auto;
+	overflow: auto;
+	width: 90%;
+	opacity: 0.9;
+	border: 5px solid black;
+	
+
+}
+
+.mdl-cell {
+	margin: 55px 55px 13px 55px;
+
+	color: #fff;
+}
+
+.data-cell {
+	font-size: 14px;
+	text-decoration: underline;
+	font-family: 'Mandali', sans-serif;
+}
+
+.mdl-mini-footer { 
+	border: 10px solid black; 
+	max-width: 1200px;
+	margin: auto;
+	padding: 20px; 
+	font-family:'Mandali', sans-serif;
+	text-align: center;
+	text-indent: 30px;
+} 
+
+.query-container {
+	border: 5px solid black; 
+	padding-left: 12px;
+	width: 500px; 
+	height: 151px;
+	color: #000000;
+	font-size: 20px; 
+	font-weight: bold; 
+	text-align: center;
+	float: left;
+	margin-left: 60px;
+	font-family: 'Mandali', sans-serif;
+	padding-top: 5px;
+	
+	overflow: auto;
+
+	
+}  
+.query-container-lyrics{
+	border: 5px solid black;
+	padding-left: 12px;
+	width: 500px;
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+	float: left;
+	margin-left: 50px;
+	font-family: 'Mandali', sans-serif;
+	font-size: 20px;
+	padding-top: 5px;
+	
+	overflow: auto;
+}
+
+.form1 {
+	display: inline;
+	margin-left: 5px;
+} 
+
+.form2 {
+	display: inline;
+	margin-left: 5px;
+}
+
+/*button {
+	color: #808080;
+}  
+*/
+
+#showSearchBtn {
+	margin-left: 345px;
+	margin-top: 19px;
+}
+
+#songSearchBtn {
+	margin-left: 10px;
+}
+
+.results {
+	width: 1050px;
+	margin-left: 60px;
+	overflow: auto;
+
+}
+
+.results-table {
+	width: 1050px;
+	text-align: center;
+	padding: 10px 0;
+	
+	overflow: auto;
+	
+
+}
+
+.resultsHead {
+	font-size: 18px;
+	text-decoration: underline;
+	background-color: #fff;
+	border: 5px solid black;
+	font-weight: bold;
+}
+
+.resultsBody {
+	background-color: #E91C63;
+	border: 5px solid black;
+	opacity: .9;
+}
+
+.artistCap {
+	text-transform: capitalize;
+}
+
+.plannerHead {
+	/*font-family: 'Mandali', sans-serif;*/
+	background-color: #E91C63;
+	opacity: .9;
+	font-size: 18px;
+	text-decoration: underline;
+	text-align: center;
+	font-weight: bold;
+}
+
+.plannerBody {
+	background-color: #fff;
+	
+	text-align: center;
+}
